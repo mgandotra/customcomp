@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/mgandotra/customcomp.git"
   },
-  "main": "custom-Quilljs-block.js",
+  "main": "blocksdk.js",
   "author": "Thomas Besluau",
   "license": "BSD-3-Clause",
   "scripts": {
