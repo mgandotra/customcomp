@@ -8,5 +8,8 @@
   },
   "main": "custom-Quilljs-block.js",
   "author": "Thomas Besluau",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "start": "node custom-Quilljs-block.js"
+  }
 }
