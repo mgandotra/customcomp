@@ -10,6 +10,6 @@
   "author": "Thomas Besluau",
   "license": "BSD-3-Clause",
   "scripts": {
-    "start": "node blocksdk.js"
+    "start": "node custom-Quilljs-block.js"
   }
 }
