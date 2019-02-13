@@ -1,7 +1,5 @@
 var BlockSDK = require('./blocksdk');
-if (global.window.self === global.window.top) {
-	document.body.innerText = 'This application is for use in the Salesforce Marketing Cloud Content Builder Editor only.';
-} else {
+
 	var sdk = new BlockSDK();
 	sdk.getContent(function (content) {
 		var quill = new Quill('#editor-container', {
@@ -22,4 +20,3 @@ if (global.window.self === global.window.top) {
 		}
 		quill.on('text-change', saveText);
 	});
-}
