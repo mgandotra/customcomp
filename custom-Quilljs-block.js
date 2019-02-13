@@ -1,5 +1,5 @@
 var BlockSDK = require('./blocksdk');
-if (window.self === window.top) {
+if (global.window.self === global.window.top) {
 	document.body.innerText = 'This application is for use in the Salesforce Marketing Cloud Content Builder Editor only.';
 } else {
 	var sdk = new BlockSDK();
