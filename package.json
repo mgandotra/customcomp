@@ -11,8 +11,5 @@
   "license": "BSD-3-Clause",
   "scripts": {
     "start": "node blocksdk.js"
-  },
-  "dependencies": {
-    "blocksdk": "0.6.2"
   }
 }
